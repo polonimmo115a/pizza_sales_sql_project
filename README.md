@@ -23,3 +23,17 @@ Pizza chains face challenges such as
 
 -**Sales optimization:** Finding peak ordering times, popular pizza types, and revenue drivers.
 
+
+## Schema
+
+'''sql
+
+create table order_details(
+               order_details_id int8 primary key,
+               order_id int8,
+               pizza_id varchar(50),
+               quantity int8
+  '''
+
+  
+
