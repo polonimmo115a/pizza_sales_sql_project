@@ -35,5 +35,33 @@ create table order_details(
                quantity int8
 ```
 
-  
+```sql
 
+create table orders(
+             order_id int8 primary key,
+             date1 date, 
+             time1 time
+
+);
+```
+
+```sql
+
+create table pizza_types(
+             pizza_type_id varchar(100),             
+			 name varchar(200),
+             category varchar(100),
+             ingredients varchar(1000)
+
+);
+```
+
+```sql
+
+create table pizzas(
+           pizza_id varchar(100),
+           pizza_type_id varchar(100),
+           size varchar(10),
+		   price float
+);
+```
