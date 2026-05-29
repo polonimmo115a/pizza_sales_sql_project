@@ -26,14 +26,14 @@ Pizza chains face challenges such as
 
 ## Schema
 
-'''sql
+```sql
 
 create table order_details(
                order_details_id int8 primary key,
                order_id int8,
                pizza_id varchar(50),
                quantity int8
-  '''
+```
 
   
 
